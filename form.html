@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div id="formDiv">
+        <h1 style="text-align: center;">REGISTER</h1>
+        <div id="names" class="row">
+            <div id="nameOne" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">First Name</label>
+                <input type="text" required>
+            </div>
+            <div id="nameTwo" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">Last Name</label>
+                <input type="text" required>
+            </div>
+        </div>
+        <div id="contact" class="row">
+            <div id="contactOne" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">E-mail</label>
+                <input type="email" placeholder="eg:sam2024@gmail.com" required>
+            </div>
+            <div id="contactTwo" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">Phone No</label>
+                <input type="text" placeholder="(000) 000 0000" required>
+            </div>
+        </div>
+        <div id="dates" class="row">
+            <div id="datesOne" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">Arrival Date</label>
+                <input type="date" required>
+            </div>
+            <div id="datesTwo" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">Departure Date</label>
+                <input type="date" required>
+            </div>
+        </div>
+        <div id="people" class="row">
+            <div id="peopleOne" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">Number of Adults</label>
+                <input type="text" placeholder="Type a number" required>
+            </div>
+            <div id="peopleTwo" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">Number of Children</label>
+                <input type="text" placeholder="Type a number" required>
+            </div>
+        </div>
+        <div id="money" class="row">
+            <div id="moneyOne" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">Payment Method</label>
+            </div>
+            <div id="moneyTwo" class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">Check</label>
+                <input type="checkbox">
+                <label for="">Credit Card</label>
+                <input type="checkbox">
+              
+            </div>
+        </div>
+        <div id="request">
+            <label for="" style="text-align: center;">Do you have any special request?</label>
+            <!-- <div id="specialR"></div> -->
+            <input type="text" id="requestOne" placeholder="Type Here..." style="text-align: center;" required>
+        </div>   
+        <input type="submit" id="submit" onclick="submit()"> 
+
+    </div>
+    
+    <script src="form.js"></script>
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

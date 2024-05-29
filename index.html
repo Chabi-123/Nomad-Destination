@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/c126daa513.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking css from bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="icon" type="image/x-icon" href="logofavacon.ico">
+
+    <title>Nomad Destination</title>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div id="frontPage">
+    <header>
+        <div id="logoBox">
+            <div id="logo"></div>
+            <ul id="icons">
+                <li><a href="https://www.facebook.com/Chabi11810002646"><i class="fa-brands fa-facebook" style="color:blue"></i></a></li>
+                <li><a href="https://www.instagram.com/chabilal_pradhan?igsh=MTN4ZGFjd3BlZGRnbQ=="><i class="fa-brands fa-instagram" style="color:#F60080"></i></a></li>
+                <li><a href="https://www.tiktok.com/@madd0gm249?_t=8mh8ERDK96g&_r=1"><i class="fa-brands fa-tiktok" style="color:black" ></i></a></li>
+            </ul>
+            
+        </div>    
+        <div id="menus">
+            <ul id="heads">
+                <li class="hideOnMobile"><a href="#carouselExampleCaptions">HOME</a></li>
+                <li class="hideOnMobile"><a href="#pageTwo">DESTINATION</a></li>
+                <li class="hideOnMobile"><a href="#aboutUsLink">ABOUT US</a></li>
+                <li class="hideOnMobile"><a href="#footer">CONTACTS</a></li>
+                <li style="border:1px solid black; border-radius: 20px; box-shadow: 0px 0px 5px black;" id="bookNow"><a href="form.html">Book Now</a></li>
+                <li onclick="showSidebar()">
+                    <i class="fa-solid fa-bars" id="homePagebar"></i>
+                </li>
+                
+            </ul>
+        </div>
+    </header>
+    <header  id="headerTwo">
+        
+            <ul id="sidebar">
+                <li onclick="closeSidebar()">
+                    <i class="fa-solid fa-xmark"></i>
+                </li> 
+                <li><a href="#carouselExampleCaptions">HOME</a></li>
+                <li><a href="#pageTwo">DESTINATION</a></li>
+                <li><a href="#about_parentDiv">ABOUT US</a></li>
+                <li><a href="#footer">CONTACTS</a></li>                         
+            </ul>       
+    </header>
+    </div> 
+
+    <!--Front page carousel  -->
+    <div id="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000" >
+                <img src="first page 1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="color: black; font-weight: 700;" >"Embrace the Extraordinary: Journey into Bhutan's Mystical Heart"</h5>
+                  <p style="color: black">Experience Bhutan's mystical essence, where every journey reveals extraordinary wonders.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="second page.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style=" font-weight: 700;">"Bhutan: Where Happiness Finds Its Home"</h5>
+                  <p>In Bhutan, happiness resides in the embrace of its welcoming culture.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="first page 2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style=" font-weight: 700;">"Discover Bhutan: Where Culture, Nature, and Happiness Converge in Harmony"</h5>
+                  <p>Bhutan beckons with a blend of culture, nature, and joyous living.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <!-- destination header -->
+    <br>
+      <h2 id="pageTwo" style="text-align:center">EXPLORE YOUR DESTINATIONS</h2>
+
+    <!-- Second page carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- second page one -->
+          <div id="parentDivOne">
+            <div id="subparentOneT">
+                <div id="firstImgT"></div>
+                <div id="childDivT">
+                    <div id="secondImgT"></div>
+                    <div id="thirdImgT"></div>
+                </div>
+            </div>
+            <div id="subparentTwoT">
+                <div id="childOneT" class="divh2">
+                    <h2 style="text-align:center;">THIMPHU</h2>
+                    <p class="explorPara">Nestled in the heart of the Himalayas, Thimphu, Bhutan's capital, enchants with its serene charm. Rich in tradition and surrounded by breathtaking landscapes, it offers a glimpse into Bhutanese culture through its vibrant markets, majestic monasteries, and warm-hearted locals.</p>
+                </div>
+                <div id="childTwoT">
+                    <div id="subchildOneT">
+                        <div id="fourthImgT"></div>
+                        <div id="fifthImgT"></div>
+                    </div>
+                    <div id="subchildTwoT">
+                        <div id="sixthImgT"></div>
+                        <div id="innerMostDivT">
+                            <div id="innerChildDivT">
+                                <div id="seventhImgT"></div>
+                                <div id="eightImgT"></div>
+                            </div>
+                            <div id="ninthImgT"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <!-- second page two -->
+          <div id="parentDivTwo">
+            <div id="subparentOneB">
+                <div id="firstImgB"></div>
+                <div id="childDivB">
+                    <div id="secondImgB"></div>
+                    <div id="thirdImgB"></div>
+                </div>
+            </div>
+            <div id="subparentTwoB">
+                <div id="childOneB" class="divh2">
+                    <h2 style="text-align:center;">BUMTHANG</h2>
+                    <p class="explorPara">
+                      Bumthang, the spiritual heartland of Bhutan, captivates with its pristine beauty and profound tranquility. Renowned for its sacred temples, lush valleys, and traditional festivals, it invites travelers to immerse themselves in a timeless realm of spirituality and natural wonder.</p>
+                </div>
+                <div id="childTwoB">
+                    <div id="subchildOneB">
+                        <div id="fourthImgB"></div>
+                        <div id="fifthImgB"></div>
+                    </div>
+                    <div id="subchildTwoB">
+                        <div id="sixthImgB"></div>
+                        <div id="innerMostDivB">
+                            <div id="innerChildDivB">
+                                <div id="seventhImgB"></div>
+                                <div id="eightImgB"></div>
+                            </div>
+                            <div id="ninthImgB"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <!-- second page three -->
+          <div id="parentDivThree">
+            <div id="subparentOne">
+                <div id="firstImg"></div>
+                <div id="childDiv">
+                    <div id="secondImg"></div>
+                    <div id="thirdImg"></div>
+                </div>
+            </div>
+            <div id="subparentTwo">
+                <div id="childOne" class="divh2">
+                    <h2 style="text-align:center;">PARO</h2>
+                    <p class="explorPara">
+                      Paro, nestled in a picturesque valley, boasts a harmonious blend of ancient charm and natural splendor. Home to Bhutan's most iconic landmark, the Tiger's Nest monastery, and surrounded by majestic mountains, it offers a gateway to both cultural treasures and breathtaking landscapes.</p>
+                </div>
+                <div id="childTwo">
+                    <div id="subchildOne">
+                        <div id="fourthImg"></div>
+                        <div id="fifthImg"></div>
+                    </div>
+                    <div id="subchildTwo">
+                        <div id="sixthImg"></div>
+                        <div id="innerMostDiv">
+                            <div id="innerChildDiv">
+                                <div id="seventhImg"></div>
+                                <div id="eightImg"></div>
+                            </div>
+                            <div id="ninthImg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br>
+    <br>
+    <!-- Third page -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div id="hotelDiv">
+            <h1 style="text-align:center" id="pageThree">Hotels You can Visit</h1>
+            <h2 style="text-align:center">Le Meridien</h2>
+            <p style="padding:0px 10px">Hotel Le Méridien Paro, Riverfront, is a luxurious retreat in Paro, Bhutan. Nestled along the Paro River, it offers stunning views and elegant accommodations. Guests enjoy top-notch amenities, including a spa, fine dining, and easy access to cultural sites like Paro Taktsang. It is perfect for a serene and sophisticated stay.</p>
+            <div id="hotelChild">
+                <div id="HotelOne"></div>
+                <div id="HotelTwo"></div>
+                <div id="HotelThree"></div>
+            </div> 
+        </div>
+      <!-- btn space 1 -->
+     <a href="https://www.marriott.com/en-us/hotels/pbhpr-le-meridien-paro-riverfront/overview/"><Button class="buttonMore">Click here to know more</Button></a>
+        </div>
+        <div class="carousel-item">
+          <div id="hotelDivTwo">
+            <h1 style="text-align:center">Hotels You can Visit</h1>
+            <h2 style="text-align:center">Tashi Taj</h2>
+            <p style="padding:0px 10px">
+                Hotel Taj Thimphu, Bhutan, offers a blend of traditional Bhutanese charm and modern amenities. Guests enjoy comfortable, elegantly designed rooms and warm hospitality. The hotel provides beautiful views of the surrounding landscapes and easy access to Thimphu cultural attractions, ensuring a pleasant and memorable stay.</p>
+            <div id="hotelChildTwo">
+                <div id="HotelOneT"></div>
+                <div id="HotelTwoT"></div>
+                <div id="HotelThreeT"></div>
+            </div> 
+        </div>
+        <!-- btn space 2 -->
+        <a href="https://taj-stage65-1.adobecqms.net/en-in/taj/taj-tashi/rooms-and-suites/"><button class="buttonMore">Click here to know more</button></a>
+        </div>
+        <div class="carousel-item">
+          <div id="hotelDivThree">
+            <h1 style="text-align:center">Hotels You can Visit</h1>
+            <h2 style="text-align:center">Hotel AmanKora</h2>
+            <p style="padding:0px 10px">Hotel Amankora Bumthang, located in the spiritual heart of Bhutan, offers a luxurious and serene retreat. Surrounded by monasteries and lush valleys, this exquisite lodge features elegant suites, a spa, and farm-to-table dining. Guest experience unparalleled tranquility and cultural immersion, making it a perfect destination for relaxation.</p>
+            <div id="hotelChildThree">
+                <div id="HotelOneB"></div>
+                <div id="HotelTwoB"></div>
+                <div id="HotelThreeB"></div>
+            </div> 
+        </div>
+        <!-- btn space 3-->
+       <a  href="https://www.aman.com/resorts/amankora/accommodation/lodges/bumthang-lodge"><button class="buttonMore">Click here to know more</button></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- fourth page -->
+    <div id="fourthPg">
+      <h1 style="text-align:center">Food and culture</h1>
+      <p style="padding:20px">Bhutanese cuisine is characterized by its bold flavors and hearty ingredients, with red rice, chilies, and cheese being staples. Ema Datshi, a spicy chili and cheese stew, is the national dish. The culture is deeply influenced by Buddhism, evident in the numerous monasteries, prayer flags, and religious festivals such as Tsechu. During Tsechu, masked dancers perform traditional rituals that date back centuries, celebrating the teachings of Guru Rinpoche. Bhutan's emphasis on Gross National Happiness reflects its commitment to preserving cultural heritage while embracing sustainable development. The harmonious blend of spirituality, tradition, and modernity makes Bhutan's food and culture truly unique.</p>
+      <div class="cardDiv">
+      <div class="card" style="width: 18rem;">
+          <img src="tshechu.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">
+              Bhutanese Tshechu is a vibrant annual festival featuring traditional masked dances, colorful costumes, and religious rituals, celebrating Bhutan's cultural heritage and Buddhist teachings.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="ema datshi.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">
+              Ema Datshi, Bhutan's beloved national dish, features spicy chili peppers and creamy cheese, creating a flavorful, hearty stew often enjoyed with red rice.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cardDiv">
+        <div class="card" style="width: 18rem;">
+          <img src="sha kam datshi.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">
+              Sha Kam Datshi is a popular Bhutanese dish made with dried beef, chili peppers, and cheese, offering a savory, spicy, and rich flavor.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="black necked crane festival.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">The Black-Necked Crane Festival in Bhutan celebrates the arrival of these endangered birds, featuring traditional songs, dances, and educational activities to promote conservation effort.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- about us page -->
+  <div id="aboutUsLink" ></div>
+    <div id="about_parentDiv">
+      <h3 style="text-align: center;">About Us</h3>
+      <br>
+      <br>
+      <div id="about_childDiv">
+        <div id="about_imgDiv">
+          <img src="group pic.jpg" />
+        </div>
+        <div id="about_paraDiv">
+          <p>
+            Nomad Destination is a travel tech company founded by five friends
+            who met while learning coding at Youngphula. Their main goal is to
+            assist travelers from different countries in planning and locating
+            their trips in advance. They aimed to create a user-friendly
+            platform that helps travelers organize their journeys efficiently
+            and enjoy a smoother travel experience. The company likely offers
+            various tools and resources to aid in travel planning, such as
+            itinerary management, destination guides, and possibly integration
+            with local services to enhance the overall travel experience.
+          </p>
+        </div>
+        <hr>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div id="about_childDiv1">
+        <!-- first div -->
+        <div class="about_childDiv2">
+          <div class="about_gChildDiv1">
+            <img src="chabi.png" />
+          </div>
+          <div class="about_gChildDiv2">
+            <h5>Chabilal Pradhan</h5>
+            <h6>
+              <a href="https://www.facebook.com/Chabi11810002646?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/chabilal_pradhan?igsh=MTN4ZGFjd3BlZGRnbQ=="><i class="fa-brands fa-instagram"> </i></a>
+              <a href="https://wa.me/qr/XI7RI26XQQKSH1"><i class="fa-brands fa-whatsapp"></i></a>
+            </h6>
+            <h6>Front-End <br> Developer</h6>
+          </div>
+        </div>
+
+        <!-- secound div -->
+        <div class="about_childDiv2">
+          <div class="about_gChildDiv1">
+            <img src="Wangchuk.png" />
+          </div>
+          <div class="about_gChildDiv2">
+            <h5>Tshering Wangchuk</h5>
+            <h6>
+              <a href="https://www.facebook.com/profile.php?id=100069546228539"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/tsheringwang2002?igsh=dXM3OXR0N2w0YTRt"><i class="fa-brands fa-instagram"> </i></a>
+              <a href="https://wa.me/qr/XFGV3GLYUF5OD1"><i class="fa-brands fa-whatsapp"></i></a>
+            </h6>
+            <h6>Front-End <br> Developer</h6>
+          </div>
+        </div>
+        <!-- third div -->
+        <div class="about_childDiv2">
+          <div class="about_gChildDiv1">
+            <img src="Ugyen.png" />
+          </div>
+          <div class="about_gChildDiv2">
+            <h5>Ugyen Tshering</h5>
+            <h6>
+              <a href="https://www.facebook.com/ugentshering1919?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/ugyen8282?igsh=MWkzeTEyc3psbjQ4cg=="><i class="fa-brands fa-instagram"> </i></a>
+              <a href="https://wa.me/qr/VAUTKP7QCSCIN1"><i class="fa-brands fa-whatsapp"></i></a>
+            </h6>
+            <h6>Reseacher</h6>
+          </div>
+        </div>
+        <!-- fourth div -->
+        <div class="about_childDiv2">
+          <div class="about_gChildDiv1">
+            <img src="yogesh.png" />
+          </div>
+          <div class="about_gChildDiv2">
+            <h5>Yogesh Uroan</h5>
+            <h6>
+             <a href="https://www.facebook.com/yogesh.ekka.988?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/yogeshekka4?igsh=MWMzN21pbm9wOHduNg=="><i class="fa-brands fa-instagram"> </i></a>
+              <a href="https://wa.me/qr/TXIAJ4PUYLZQE1"><i class="fa-brands fa-whatsapp"></i></a>
+            </h6>
+            <h6>Reseacher</h6>
+          </div>
+        </div>
+        <!-- fifth div -->
+        <div class="about_childDiv2">
+          <div class="about_gChildDiv1">
+            <img src="Thinley.png" />
+          </div>
+          <div class="about_gChildDiv2">
+            <h5>Thinley Wangdi</h5>
+            <h6>
+              <a href="https://www.facebook.com/profile.php?id=100082486491161&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/i_m_thinley?igsh=OXdsa3F2djRqOXJx"><i class="fa-brands fa-instagram"> </i></a>
+              <a href="https://wa.me/qr/POXTYDMP234XC1"><i class="fa-brands fa-whatsapp"></i></a>
+            </h3>
+            <h6>Designer</h6>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr />
+    </div>
+
+  <!-- footer -->
+  <div id="footer"> 
+    <div id="footerchild"> 
+      <div id="footerbox"> 
+        <h4> 
+          About 
+          <div class="underline"><span></span></div> 
+        </h4> 
+        <p> 
+          Nomad Destination is a travel tech company founded by five friends
+            who met while learning coding at Youngphula. Their main goal is to
+            assist travelers from different countries in planning and locating
+            their trips in advance.
+        </p> 
+        
+      </div> 
+      <div id="footerbox1"> 
+        <h4> 
+          Office 
+          <div class="underline"><span></span></div> 
+        </h4> 
+        <p> 
+          Our office is located in Paro, Bhutan, nestled in a serene valley surrounded by lush mountains. It's near the iconic Paro Taktsang monastery, offering breathtaking views and a peaceful atmosphere. The area combines natural beauty with cultural richness, providing an inspiring backdrop for work. The proximity to Paro International Airport ensures convenient connectivity.
+        </p> 
+        <a href="mailto:https://mail.google.com/mail/u/0/#inbox" class="ankerColor"><i class="fa-solid fa-envelope"></i>  nomaddestination@gmail.com</a>
+        <br>
+        <a href="tel:17345676" class="ankerColor"><i class="fa-solid fa-phone-volume" "></i>17345676</a>
+      </div> 
+      <div id="footerbox2"> 
+        <h4 class="footh4">Links</h4> 
+        <ul> 
+          <li><a href="#carouselExampleCaptions">HOME</a></li> 
+          <li><a href="#about_parentDiv">ABOUT US</a></li> 
+          <li><a href="#pageTwo">DESTINATION</a></li> 
+          <li><a href="#footer">CONTACTS</a></li> 
+        </ul> 
+      </div> 
+      <div id="footerbox3"> 
+        <h4 class="footh4">Follow Us</h4> 
+        <ul> 
+          <li>
+            <a href="https://www.facebook.com/Chabi11810002646"> 
+            <i class="fa-brands fa-facebook" style="color: #ffffff"></i> 
+            </a>
+          </li> 
+          <li>
+            <a href="https://www.tiktok.com/@madd0gm249?_t=8mh8ERDK96g&_r=1">
+            <i class="fa-brands fa-whatsapp" style="color: #ffffff"></i>
+            </a> 
+          </li> 
+          <li> 
+            <a href="https://www.instagram.com/chabilal_pradhan?igsh=MTN4ZGFjd3BlZGRnbQ==">
+            <i class="fa-brands fa-telegram" style="color: #ffffff"></i>
+           </a> 
+          </li> 
+          <li>
+          <a href="https://www.tiktok.com/@madd0gm249?_t=8mh8ERDK96g&_r=1">
+          <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
+          </a>
+          </li> 
+          <li>
+          <a href="https://www.google.com/maps/place/Paro/@27.3997782,89.3548481,12z/data=!3m1!4b1!4m6!3m5!1s0x39e19de85a6c39b7:0x1fa780f5a070190!8m2!3d27.428684!4d89.4163654!16s%2Fm%2F047vntd?entry=ttu"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i></i>
+          </a>
+          </li> 
+        </ul> 
+      </div> 
+    </div> 
+    <hr /> 
+    <p style="text-align: center"> 
+      &copy; 2024 Nomad Destination. All rights reserved. 
+    </p> 
+    <hr /> 
+  </div> 
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

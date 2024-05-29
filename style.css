@@ -1,0 +1,1350 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Freeman&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sedan+SC&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+  
+}
+#frontPage{
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: whitesmoke;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  width: 100%;
+  box-shadow: 0 0 20px black;
+  padding-top: 15px;
+}
+.hideOnMobile{
+  transition: 1s;
+}
+.hideOnMobile:hover{
+  transform: scale(1.1);
+}
+
+li {
+  list-style-type: none;
+}
+#bookNow{
+  transition: 1s;
+}
+
+#bookNow:hover{
+    background-color:lightblue;
+    transform: scale(1.05);
+}
+
+a{
+  text-decoration: none !important;
+  color: black !important;
+  font-weight: 500;
+}
+#logoBox {
+  display: flex;
+  margin-left: 25px;
+}
+
+#logo {
+  width: 60px;
+  height: 65px;
+  margin-bottom: 15px;
+  background-image: url("img.png");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#icons {
+  display: flex;
+  align-items: center;
+}
+
+#icons li {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#menus #heads {
+  display: flex;
+  font-size: 12px;
+}
+
+#menus #heads li {
+  padding: 10px;
+}
+
+#headerTwo{
+  position: fixed;
+  top:0;
+  right:0;
+  height:60vh;
+  width: 200px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.281);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px black  ; 
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 20px 0 0 20px;
+  
+}
+
+#homePagebar{
+  display: none;
+}
+
+/* carousel images */
+.carousel img{
+  height: 90vh;
+}
+
+
+/* second page one */
+#parentDivOne{
+  height: 90vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 10px;
+}
+
+#subparentOneT{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+#firstImgT{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid black; */
+  background-image: url("padd-field-thimpu-bhutan.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#childDivT{
+  width: 100%;
+  height: 38%;
+  /* border: 1px solid black; */
+  margin-top: 4%;
+  display: flex;
+}
+
+#secondImgT{
+  width: 58%;
+  height: 100%;
+  /* border: 1px solid black; */
+  background-image: url("dochula.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+#thirdImgT{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-left: 2%;
+   background-image: url("taken.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#subparentTwoT{
+  width: 59%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-left: 1%;
+}
+
+#childOneT{
+  width: 100%;
+  height: 30%;
+  /* border: 1px solid black; */
+  padding: 15px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 15px;
+}
+
+#childTwoT{
+  width: 100%;
+  height: 68%;
+  /* border: 1px solid black; */
+  margin-top: 3%;
+  display: flex;
+}
+
+#subchildOneT{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+#fourthImgT{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid black; */
+  background-image: url("Buddha-Dordenma-statue-Thimhpu-Bhutan.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#fifthImgT{
+  width: 100%;
+  height: 38%;
+  /* border: 1px solid black; */
+  margin-top: 4%;
+  background-image: url("taj\ hotel.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#subchildTwoT{
+  width: 58%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-left: 2%;
+}
+
+#sixthImgT{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid black; */
+  background-image: url("town.JPG");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#innerMostDivT{
+  width: 100%;
+  height: 58%;
+  /* border: 1px solid black; */
+  margin-top: 3%;
+  display: flex;
+}
+
+#innerChildDivT{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+#seventhImgT{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid black; */
+  background-image: url("memorialchorten.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#eightImgT{
+  width: 100%;
+  height: 58%;
+  /* border: 1px solid black; */
+  margin-top: 5%;
+  background-image: url("dungtsho-1.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#ninthImgT{
+  width: 58%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-left: 2%;
+  
+  background-image: url("phajoding.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+/* second page two */
+#parentDivTwo{
+  height: 90vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  /* box-shadow: 0px 0px 10px black; */
+  padding: 10px;
+}
+
+#subparentOneB{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+#firstImgB{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid black; */
+  background-image: url("Bhutan_GettyImages-620874988.webp");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px black;
+}
+
+#childDivB{
+  width: 100%;
+  height: 38%;
+  /* border: 1px solid black; */
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#secondImgB{
+  width: 58%;
+  height: 100%;
+  /* border: 1px solid black; */
+  background-image: url("jakar.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px black;
+}
+#thirdImgB{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-right: 2%;
+  background-image: url("Bumthang-chain-bridge.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#subparentTwoB{
+  width: 59%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#childOneB{
+  width: 100%;
+  height: 30%;
+  /* border: 1px solid black; */
+  padding: 15px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 15px;
+}
+
+#childTwoB{
+  width: 100%;
+  height: 68%;
+  /* border: 1px solid black; */
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#subchildOneB{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+#fourthImgB{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid black; */
+  background-image: url("Lhodrak_Karchu_Monastery\,_Bumthang_2021-10-24a.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#fifthImgB{
+  width: 100%;
+  height: 38%;
+  /* border: 1px solid black; */
+  margin-top: 4%;
+  background-image: url("Bumthang-Airport.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#subchildTwoB{
+  width: 58%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-right: 2%;
+}
+
+#sixthImgB{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid black; */
+  background-image: url("Burning-Lake-of-Bhutan.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#innerMostDivB{
+  width: 100%;
+  height: 58%;
+  /* border: 1px solid black; */
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#innerChildDivB{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+#seventhImgB{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid black; */
+  background-image: url("bumthang-buckwheat.jpeg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#eightImgB{
+  width: 100%;
+  height: 58%;
+  /* border: 1px solid black; */
+  margin-top: 5%;
+  background-image: url("dorji.webp");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#ninthImgB{
+  width: 58%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-right: 2%;
+  background-image: url("Chumey-Nature-Resort.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+/* second page three */
+#parentDivThree{
+  height: 90vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+}
+
+#subparentOne{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#firstImg{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid black; */
+  background-image: url("paro\ dzong.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px black;
+}
+
+#childDiv{
+  width: 100%;
+  height: 38%;
+  /* border: 1px solid black; */
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#secondImg{
+  width: 58%;
+  height: 100%;
+  /* border: 1px solid black; */
+  background-image: url("bumdra.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px black;
+}
+#thirdImg{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-right: 2%;
+  background-image: url("ta_dzong_1024.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#subparentTwo{
+  width: 59%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-right: 1%;
+}
+
+
+#childOne{
+  width: 100%;
+  height: 30%;
+  /* border: 1px solid black; */
+  padding: 15px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 15px;
+
+}
+
+#childTwo{
+  width: 100%;
+  height: 68%;
+  /* border: 1px solid black; */
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#subchildOne{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#fourthImg{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid black; */
+  background-image: url("hotel-exterior.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#fifthImg{
+  width: 100%;
+  height: 38%;
+  /* border: 1px solid black; */
+  margin-bottom: 4%;
+  background-image: url("paroairport-slide2.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#subchildTwo{
+  width: 58%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-right: 2%;
+}
+
+#sixthImg{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid black; */
+  background-image: url("Paro-Valley.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#innerMostDiv{
+  width: 100%;
+  height: 58%;
+  /* border: 1px solid black; */
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#innerChildDiv{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+#seventhImg{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid black; */
+  background-image: url("Tamchoe-Monastery-Paro-Bhutan-og.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#eightImg{
+  width: 100%;
+  height: 58%;
+  /* border: 1px solid black; */
+  margin-top: 5%;
+  background-image: url("dragay\ pangtsho.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+#ninthImg{
+  width: 58%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin-right: 2%;
+  background-image: url("img1.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px black;
+}
+
+/* Third page one*/
+#hotelDiv{
+  height: 90vh;
+  width: 100%;
+}
+
+#hotelChild{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-position: center;
+}
+
+/* First pic */
+#HotelOne{
+  width: 28%;
+  height: 50%;
+  background-image: url("le\ merdian\ pic\ 2.jpg");
+  border-radius: 5%;
+  background-size: cover;
+  transition: 1s;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px black;
+}
+#HotelOne:hover{
+  transform: scale(1.1);
+}
+
+/* Second pic */
+#HotelTwo{
+  width: 32%;
+  height: 55%;
+  background-image: url("le\ merdian\ pic\ 1.jpg");
+  border-radius: 5%;
+  background-size: cover;
+  transition: 1s;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px black;
+}
+#HotelTwo:hover{
+  transform: scale(1.1);
+}
+
+/* Third pic */
+#HotelThree{
+  width: 28%;
+  height: 50%;
+  background-image: url("le\ merdian\ pic\ 3.JPG");
+  border-radius: 5%;
+  background-size: cover;
+  transition: 1s;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px black;
+}
+#HotelThree:hover{
+  transform: scale(1.1);
+}
+
+/* Button */
+
+/* Third page two */
+#hotelDivTwo{
+  height: 90vh;
+  width: 100%;
+}
+
+#hotelChildTwo{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-position: center;
+}
+
+/* First pic */
+#HotelOneT{
+  width: 28%;
+  height: 50%;
+  background-image: url("taj\ 1.jpeg");
+  border-radius: 5%;
+  background-size: cover;
+  transition: 1s;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px black;
+}
+#HotelOneT:hover{
+  transform: scale(1.1);
+}
+
+/* Second pic */
+#HotelTwoT{
+  width: 32%;
+  height: 55%;
+  background-image: url("taj\ 2.jpg");
+  border-radius: 5%;
+  background-size: cover;
+  transition: 1s;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px black;
+}
+#HotelTwoT:hover{
+  transform: scale(1.1);
+}
+
+/* Third pic */
+#HotelThreeT{
+  width: 28%;
+  height: 50%;
+  background-image: url("taj\ 3.JPG");
+  border-radius: 5%;
+  background-size: cover;
+  transition: 1s;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px black;
+}
+#HotelThreeT:hover{
+  transform: scale(1.1);
+}
+
+/* Button */
+
+
+/* Third page Three */
+#hotelDivThree{
+  height: 90vh;
+  width: 100%;
+}
+
+#hotelChildThree{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-position: center;
+}
+
+/* First pic */
+#HotelOneB{
+  width: 28%;
+  height: 50%;
+  background-image: url("amankora\ 1.jpg");
+  border-radius: 5%;
+  background-size: cover;
+  transition: 1s;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px black;
+}
+#HotelOneB:hover{
+  transform: scale(1.1);
+}
+
+/* Second pic */
+#HotelTwoB{
+  width: 32%;
+  height: 55%;
+  background-image: url("amankora\ 2.jpg");
+  border-radius: 5%;
+  background-size: cover;
+  transition: 1s;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px black;
+}
+#HotelTwoB:hover{
+  transform: scale(1.1);
+}
+
+/* Third pic */
+#HotelThreeB{
+  width: 28%;
+  height: 50%;
+  background-image: url("amankora\ 3.jpg");
+  border-radius: 5%;
+  background-size: cover;
+  transition: 1s;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px black;
+}
+#HotelThreeB:hover{
+  transform: scale(1.1);
+}
+.buttonMore{
+  border: 1px solid black;
+  background: lavender;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  padding: 5px;
+  /* border-radius: 25px; */
+  box-shadow: 5px 3px 0px 0px darkblue;
+}
+a .buttonMore{
+  border: 1px solid black;
+  background: lavender;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+/* fourth page */
+#fourthPg{
+  /* height: 70vh; */
+  width: 100%;
+}
+
+.card img{
+  width: 100%;
+  /* border-radius: 15px; */
+}
+
+.cardDiv{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.card{
+  box-shadow: 0px 0px 15px black;
+  border-radius: 15px;
+  transition: 1s;
+  margin: 20px;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.card-text{
+  padding: 5px;
+  text-align: justify;
+}
+
+/* about us page */
+#about_parentDiv {
+  width: 100%;
+  /* margin-top: 10%; */
+}
+#about_parentDiv h3{
+  margin-top: 100px;
+}
+#about_parentDiv h5 {
+  text-align: center;
+  padding-top: 30px;  
+}
+
+#about_childDiv {
+  /* border: 1px solid black; */
+  height: 50vh;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#about_imgDiv {
+  /* border: 1px solid black; */
+  height: 40vh;
+  width: 40%;
+  margin: 20px;
+  
+}
+#about_imgDiv img {
+  width: 90%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px black;
+  
+}
+#about_paraDiv {
+  /* border: 1px solid black; */
+  height: 40vh;
+  width: 50%;
+  margin: 20px;
+}
+#about_paraDiv p {
+  padding: 5px;
+}
+#about_childDiv1 {
+  /* border: 1px solid black; */
+  height: 80vh;
+  width: 90%;
+  margin: auto;
+  /* margin-top: 90px; */
+  display: flex;
+}
+.about_childDiv2 {
+  /* box-shadow: 0 0 10px black; */
+  height: 50vh;
+  width: 16%;
+  margin: auto;
+  border-radius: 15px;
+  position: relative;
+  background-color:#CCD3CA;
+}
+.about_gChildDiv1 img {
+  width: 95%;
+  border-radius: 50%;
+  margin-left: 1px;
+  transition: 1s;
+}
+.about_gChildDiv1 {
+  background-color: #F5E8DD;
+  border-radius: 15px 15px 0px 0px;
+}
+.about_gChildDiv1 img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 0 20px black;
+  background-color:#FFFFFF;
+}
+.about_gChildDiv2 h6{
+  text-align: center;
+}
+
+/* footer */
+#footer { 
+  overflow: hidden; 
+} 
+#footerchild { 
+  width: 100%; 
+  background-color: darkblue; 
+  display: flex; 
+  justify-content: center; 
+  border-radius: 60px 0px 0px 0px; 
+  color: white; 
+} 
+ 
+#footerbox { 
+  width: 35%; 
+  padding: 10px;
+  margin-left: 10px; 
+} 
+#footerbox1 { 
+  width: 35%; 
+  padding: 10px; 
+} 
+#footerbox2 { 
+  width: 12%; 
+  padding: 10px; 
+} 
+#footerbox3 { 
+  width: 15%; 
+  padding: 10px; 
+} 
+#footerbox3 ul{
+  margin-left: 60px;
+}
+#footerbox2 li a {
+  color:#ffffff !important;
+}
+ul li { 
+  list-style-type: none; 
+} 
+#footerbox3 ul li { 
+  font-size: 20px; 
+} 
+.footh4 { 
+  margin-left: 25%; 
+} 
+ 
+/* for underline animation */ 
+.underline { 
+  width: 8%; 
+  height: 5px; 
+  background-color: grey; 
+  border-radius: 3px; 
+  position: relative; 
+  top: 5px; 
+  left: 0; 
+  overflow: hidden; 
+} 
+ 
+.underline span { 
+  width: 5px; 
+  height: 10px; 
+  background-color: white; 
+  border-radius: 3px; 
+  position: absolute; 
+  top: 0; 
+  left: 10px; 
+  animation: moving 2s linear infinite; 
+} 
+@keyframes moving { 
+  0% { 
+    left: -20px; 
+  } 
+  100% { 
+    left: 100%; 
+  } 
+} 
+.ankerColor{
+  color: white !important;
+}
+
+/* media query */
+@media(min-width:0px) and (max-width:480px){
+  #frontPage{
+    overflow-x: hidden;
+  }
+  #headerTwo{
+    height: 50vh;
+    width: 300px;
+  }
+  .hideOnMobile{
+    display: none;
+  }
+#welcome{
+  margin: auto;
+  width: 80%;
+}
+#welcome h1{
+  font-size: 30px;
+}
+#sidebar li{
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+#sidebar li:hover{
+  border: 1px solid #fff;
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* second page */
+.explorPara{ 
+  font-size: 12px; 
+  padding-bottom: 50px; 
+} 
+div.divh2 h2{ 
+  font-size: 1rem; 
+}
+#thirdImgT, 
+  #thirdImgB, 
+  #seventhImgT, 
+  #eightImgT, 
+  #seventhImgB, 
+  #eightImgB, 
+  #secondImg, 
+  #eightImg,#seventhImg { 
+    display: none; 
+  } 
+  #fourthImgT, 
+  #fifthImgT, 
+  #ninthImgB { 
+    background-size: cover; 
+    background-position: center; 
+  } 
+  #secondImgT, 
+  #secondImgB,#thirdImg { 
+    width: 100%; 
+  } 
+  #ninthImgB,#ninthImg, #ninthImgT { 
+    width: 2900px; 
+  } 
+  a .buttonMore{
+margin-left:150px;
+  }
+ 
+  #fourthImgT { 
+    width: 100%; 
+    height: 50%; 
+  } 
+  #fifthImgT { 
+    width: 100%; 
+    height: 48%; 
+  }
+/* .fa-solid{
+  display: block;
+} */
+#homePagebar{
+  display: block;
+  font-size: 25px;
+}
+.cardDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* media for aboutUs */
+#about_parentDiv {
+  display: flex;
+  flex-direction: column;
+}
+#about_childDiv {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+}
+#about_imgDiv {
+width: 90%;
+margin: 10px auto ;
+margin-left: 50px;
+}
+#about_paraDiv{
+height: 40vh;
+width: 90%;
+padding: 40px 0px 20px 5px;
+
+}
+#about_childDiv1{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 250vh;
+
+}
+.about_childDiv2{
+  width: 40%;
+  height: 40vh;
+}
+#about_paraDiv p{
+text-align:left
+}
+.carousel img{
+  height: auto;
+}
+#footer{
+  margin: 5px;
+}
+#footerchild { 
+  width: 100%; 
+  background-color: darkblue; 
+  display: flex; 
+  border-radius: 0px 50% 0px 50px; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  color: white; 
+} 
+#footerbox { 
+  width: 80%; 
+  padding: 10px; 
+} 
+#footerbox1 { 
+  width: 80%; 
+  padding: 10px; 
+} 
+
+}
+
+
+
+/* tabs view */
+@media(min-width:481px) and (max-width:768px){
+  
+  #frontPage{
+    overflow-x: hidden;
+  }
+  #headerTwo{
+    height: 80vh;
+    width: 300px;
+  }
+  .hideOnMobile{
+    display: none;
+  }
+#welcome{
+  margin: auto;
+  width: 80%;
+}
+#welcome h1{
+  font-size: 30px;
+}
+#sidebar li{
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+#sidebar li:hover{
+  border: 1px solid #fff;
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* second page */
+.explorPara{ 
+  font-size: 9px; 
+  padding-bottom: 50px; 
+} 
+div.divh2 h2{ 
+  font-size: 1rem; 
+}
+#thirdImgT, 
+  #thirdImgB, 
+  #seventhImgT, 
+  #eightImgT, 
+  #seventhImgB, 
+  #eightImgB, 
+  #secondImg, 
+  #eightImg,#seventhImg { 
+    display: none; 
+  } 
+  #fourthImgT, 
+  #fifthImgT, 
+  #ninthImgB { 
+    background-size: cover; 
+    background-position: center; 
+  } 
+  #secondImgT, 
+  #secondImgB,#thirdImg { 
+    width: 100%; 
+  } 
+  #ninthImgB,#ninthImg, #ninthImgT { 
+    width: 2900px; 
+  } 
+ 
+  #fourthImgT { 
+    width: 100%; 
+    height: 50%; 
+  } 
+  #fifthImgT { 
+    width: 100%; 
+    height: 48%; 
+  }
+/* .fa-solid{
+  display: block;
+} */
+#homePagebar{
+  display: block;
+  font-size: 25px;
+}
+.cardDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+/* media for aboutUs */
+#about_parentDiv {
+  display: flex;
+  flex-direction: column;
+}
+#about_childDiv {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+}
+#about_parentDiv h3{
+  margin-bottom: 90px;
+}
+#about_imgDiv {
+width: 90%;
+margin: 50px auto ;
+margin-left: 70px;
+}
+#about_paraDiv{
+height: 40vh;
+width: 90%;
+padding: 40px 0px 40px 5px;
+margin-top: 150px;
+
+}
+#about_childDiv1{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 450vh;
+
+}
+.about_childDiv2{
+  width: 40%;
+  height: 80vh;
+}
+#about_paraDiv p{
+text-align:center;
+}
+.carousel img{
+  height: auto;
+}
+/* footer */
+#footer { 
+  overflow: hidden;
+  margin: 50px;
+} 
+#footerchild { 
+  width: 100%; 
+  background-color: darkblue; 
+  display: flex; 
+  justify-content: center; 
+  border-radius: 60px 0px 0px 0px; 
+  color: white; 
+} 
+ 
+#footerbox { 
+  width: 35%; 
+  padding: 10px;
+  margin-left: 10px; 
+} 
+#footerbox1 { 
+  width: 35%; 
+  padding: 10px; 
+} 
+#footerbox2 { 
+  width: 12%; 
+  padding: 10px; 
+} 
+#footerbox3 { 
+  width: 15%;  
+} 
+#footerbox2 li a {
+  color:#ffffff !important;
+}
+ul li { 
+  list-style-type: none; 
+} 
+#footerbox3 ul li { 
+  font-size: 20px; 
+} 
+.footh4 { 
+  margin-left: 25%; 
+
+}
+
+
+/* #footerchild { 
+  width: 100%; 
+  background-color: darkblue; 
+  display: flex; 
+  border-radius: 0px 50% 0px 50px; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  color: white; 
+} 
+#footerbox { 
+  width: 80%; 
+  padding: 10px; 
+} 
+#footerbox1 { 
+  width: 80%; 
+  padding: 10px; 
+}   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
